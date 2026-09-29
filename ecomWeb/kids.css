@@ -1,0 +1,501 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,
+body { 
+   width: 100%;
+   min-height: 100%;
+   overflow-x: hidden;
+}
+
+body {
+   position: relative;
+   margin: 0;
+   width: 100%;
+}
+
+/* NAVBAR START*/
+
+nav {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid black;
+   padding: 8px 20px;
+   font-size: larger;
+   position: fixed;
+   z-index: 6;
+   top: 0;
+   left: 0;
+   background-color: whitesmoke;
+   margin-bottom: 10vh;
+}
+
+#logo {
+   font-weight: bolder;
+   font-style: italic;
+   font-size: xx-large;
+   margin-left: 5px;
+}
+
+#navBtn {
+   display: flex;
+   gap: 25px;
+   margin-right: 10px;
+   padding: 0 10px;
+}
+
+#navBtn a {
+   text-decoration: none;
+   cursor: pointer;
+   color: black;
+   font-weight: 600;
+}
+
+/* navbar ends here */
+
+
+/* HERO START */
+
+#hero{
+   width: 100%;
+   margin: 10vh 0;
+   height: 50vh;
+   background-image: url("https://static.vecteezy.com/system/resources/thumbnails/028/596/635/small/boy-in-full-knitted-cozy-costume-isolated-on-pastel-background-with-a-place-for-text-photo.jpg");
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 25px;
+}
+
+#hero h2{
+   margin: 30px;
+   font-size: 35px;
+}
+
+#hero h3{
+   margin: 0 30px;
+}
+/* media queary */
+@media(max-width:768px){
+   #hero{
+   height: 150px;   
+   width: 100%;
+   background-size: cover;   
+   display: flex;
+   flex-direction: column;
+}
+
+#hero h2{
+   font-size: 20px;
+}
+
+#hero h3{
+   margin: auto;
+}
+}
+
+/* BOYS START */
+
+#boys {
+   margin: 60px 0;
+}
+
+#boys h2 {
+   text-align: center;
+   margin: 20px 0;
+}
+
+#boys #boysContainer {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   gap: 20px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   padding: 10px;
+   scrollbar-width: none;
+}
+
+#boys #boysContainer::-webkit-scrollbar{
+   display: none;
+}
+/* boys end here */
+
+
+/* GIRLS START */
+
+#girls {
+   margin: 60px 0;
+}
+
+#girls h2 {
+   text-align: center;
+   margin: 20px 0;
+}
+
+#girls #girlsContainer {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   gap: 20px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   padding: 10px;
+   scrollbar-width: none;
+}
+
+#girls #girlsContainer::-webkit-scrollbar{
+   display: none;
+}
+/* girls end here */
+
+
+/* BABY START */
+
+#baby {
+   margin: 60px 0;
+}
+
+#baby h2 {
+   text-align: center;
+   margin: 20px 0;
+}
+
+#baby #babyContainer {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   gap: 20px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   padding: 10px;
+   scrollbar-width: none;
+}
+/* baby end here */
+
+
+/* js madhun alela productCard */
+.productCard {
+   width: 250px;
+   min-height: 350px;
+   flex-shrink: 0;
+   border: 2px solid gray;
+}
+ .productCard:hover{
+   box-shadow: 2px 2px 6px gray;
+   
+}
+
+.productCard #imgContainer {
+   width: 100%;
+   height: 280px;
+   position: relative;
+   overflow: hidden;
+}
+
+.productCard #imgContainer img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+}
+
+.productCard #imgContainer .heartIcon {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-size: 20px;
+   cursor: pointer;
+   z-index: 2;
+}
+
+.productCard #textContainer {
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   margin-top: 5px;
+   padding: 0 8px;
+}
+
+.productCard #textContainer p {
+   font-size: small;
+   font-weight: 300;
+   margin: 0 0 5px;
+}
+
+.productCard #textContainer .rating{
+    display: none;} 
+
+.productCard:hover #textContainer .rating {
+      display: block;
+    }
+
+.productCard #textContainer #addToCart {
+   font-size: larger;
+   cursor: pointer;
+} 
+/* media queary */
+@media(max-width:768px){
+   .productCard {
+   width: 200px;
+   min-height: 250px;
+}
+
+.productCard #imgContainer {
+   height: 180px;
+}
+
+
+
+.productCard #imgContainer .heartIcon {
+   font-size: 15px;
+}
+}
+
+
+/* BANNER START */
+
+#banner{
+   width: 100%;
+   height: 50vh;
+   background-image: url("https://i.pinimg.com/736x/72/13/8f/72138f9ecf0c956395a60fd02570a250.jpg");
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#banner #text{
+   position: absolute;
+   right: 30px;
+   bottom: 30px;
+}
+/* media queary */
+@media(max-width:768px){
+   #banner{
+   height: 200px;
+}
+
+#banner #text{
+   position: absolute;
+   right: 30px;
+   bottom: 30px;
+   
+}
+#banner #text h2{
+   font-size: 15px;
+}
+}
+/* banner ends here */
+
+
+/* SELL BANNER */
+
+#sellbanner{
+   width: 100%;
+   height: 25vh;
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url("https://www.shutterstock.com/image-vector/ad-banner-design-kids-clothes-260nw-2191568211.jpg");
+}
+/* media queary */
+@media(max-width:768px){
+   #sellbanner{
+      height: 150px;
+   }
+}
+
+/* FOOTER START */
+
+.footer{ 
+   margin-top: 20px;
+   width: 100%;
+   height: 400px;
+   color: white;
+   background-color: black;
+   padding: 2px 15px;
+}
+
+.footer #top{
+   display: flex;
+   justify-content: space-between;
+   padding: 5px;
+   height: 20%;
+   align-items: center;
+}
+
+.footer #top h2{
+   font-size: 25px;
+   font-weight: 600;
+}
+
+.footer #top h2 span{
+   font-style: italic;
+   font-weight: 200;
+}
+
+.footer #top input{
+   padding: 5px 15px;
+   background-color: rgb(29, 26, 26);
+   color: gray;
+   font-size: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer #top button{
+   background-color: white;
+   color: black;
+   padding: 10px 20px;
+   border-radius: 20px;
+   margin: 0 15px;
+}
+
+.footer #center {
+   display: flex;
+   margin: 20px 0;
+   width: 100%;
+   height: auto;
+   gap: 25px;
+   justify-content: space-around;
+}
+
+.footer #center .title{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+.footer #center .title a{
+   text-decoration: none;
+   color: white;
+}
+
+.footer #bottom h2{
+   font-size: 45px;
+   font-weight: bolder;
+   text-align: center;
+   font-style: italic;
+}
+
+/* media quary */
+ @media(max-width:768px){
+ .footer{ 
+   height: auto;
+ }
+
+ .footer #top{
+   width: 100%;
+   margin:2px auto;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .footer #top h2{
+   font-size: 15px;
+ }
+
+ .footer #top input{
+   margin: 10px auto;
+    padding: 5px 10px;
+   font-size: 15px;
+ } 
+
+ 
+ .footer #bottom h2{
+     font-size: 25px;
+   }
+     
+     }
+
+/* footer ends here */
+ .activeHeart{
+ color: red;
+}
+
+/* buy Now */
+ .buyNow{
+   background-color: black;
+   color: white;
+   padding: 2px 4px;
+   width: 120px;
+   cursor: pointer;
+ }
+
+ /* responsive parts */
+#menuIcon {
+    display: none;
+   margin-right: 20px; 
+   cursor: pointer;
+}
+
+ @media (max-width: 768px) {
+
+    body {
+        margin: 2px 10px;
+        width: calc(100% - 20px);
+    }
+   #herocate {
+        height: auto;
+    }
+}
+
+ /* responsive media  */
+
+/* =========================
+   RESPONSIVE NAVBAR
+========================= */
+
+@media (max-width: 768px) {
+  nav{
+   width: 100%;
+  }
+   #navBtn{
+      display: none;
+   }
+   #menuIcon{
+      display: block;
+      cursor: pointer;
+   }
+  nav.active #navBtn {
+        display: flex;
+        flex-direction: column;
+
+        gap: 15px;
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+
+        width: 180px;
+
+        padding: 20px;
+
+        margin: 0;
+
+        background-color: whitesmoke;
+
+        border: 1px solid black;
+    }
+ .footer #top input {
+        width: 100%;
+        max-width: 200px;
+    }
+
+}

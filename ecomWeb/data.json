@@ -1,0 +1,663 @@
+ {
+  "findyourlook" : [
+    {
+      "id": 1,
+      "homeCategory": "women",
+      "img": "https://images.unsplash.com/photo-1575439462433-8e1969065df7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE4fHxnaXJsc3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": 2,
+      "homeCategory": "men",
+      "img": "https://images.unsplash.com/photo-1619102814948-e164e584cf0c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI5fHx8ZW58MHx8fHx8"
+    },
+    {
+      "id": 3,
+      "homeCategory": "kids",
+      "img": "https://plus.unsplash.com/premium_photo-1663076447708-ec3080f72864?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
+    }
+  ],
+
+  "hero2R":[
+    {
+      "id":1,
+      "img": "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsb3RoaW5nfGVufDB8fDB8fHww",
+      "text":"seasonal Must-Haves"
+    },
+     {
+      "id":2,
+      "img": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fGNsb3RoaW5nfGVufDB8fDB8fHww",
+      "text":"Curated for You"
+    }
+  ],
+
+  "trending":[
+    {
+      "id":"1",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgh_K3ELu5oMZUDCGRXsnMzoT18EkN1pz1iRLGjO9-ug&s=10",
+      "name":"Timeless Satin Shirt",
+      "Rs":"$ 52.90"
+    },
+     {
+      "id":"2",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToe1xRnsqoIhqEh_t-VN3VpJTshqXexrC5U4hiwztuMw&s",
+      "name":"T-Shirts",
+      "Rs":"$ 49.90"
+    },
+     {
+      "id":"3",
+      "img":"https://images.unsplash.com/photo-1633821879282-0c4e91f96232?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvYXR8ZW58MHx8MHx8fDA%3D",
+      "name":"Structured Wool Coat",
+      "Rs":"$ 149.90"
+    },
+     {
+      "id":"4",
+      "img":"https://images.unsplash.com/photo-1475180098004-ca77a66827be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHNob3J0c3xlbnwwfHwwfHx8MA%3D%3D",
+      "name":"Belted utility Shorts",
+      "Rs":"$ 44.90"
+    }
+  ],
+  "womenNewArrivals":[
+    {
+     "id":1,
+     "img":"https://images.unsplash.com/photo-1619794724492-651397287d94?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRyZXNzJTIwd29tZW58ZW58MHx8MHx8fDA%3D",
+     "rs":"$50.66"
+    },
+    {
+     "id":2,
+     "img":"https://images.unsplash.com/photo-1622079400125-5b6679552976?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTd8fGRyZXNzJTIwd29tZW58ZW58MHx8MHx8fDA%3D",
+     "rs":"$40.66"
+    },
+    {
+     "id":3,
+     "img":"https://images.unsplash.com/photo-1729146768776-8356708e907d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTh8fGRyZXNzJTIwd29tZW58ZW58MHx8MHx8fDA%3D",
+     "rs":"$90.66"
+    },
+    {
+     "id":4,
+     "img":"https://images.unsplash.com/photo-1645636988802-51a222ab72e0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYyfHxkcmVzcyUyMHdvbWVufGVufDB8fDB8fHww",
+     "rs":"$80.66"
+    }
+  ],
+
+  
+  
+  "tops": [
+     {
+      "id": 1,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoFOKMsL-UtpHzd-h_RFroCmJypAl4Ws88Dar78RpmdA&s=10",
+      "name": "Elegant Collar top",
+      "rs": "₹1,349"
+    },
+    {
+      "id": 2,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkyQlVWqfQ9RegJoprHIFmYf2-6rw8rNXyE7dF-EHpXw&s=10",
+      "name": "Puff Sleeve Fashion Top",
+      "rs": "₹1,099"
+    },
+    {
+      "id": 3,
+      "category": "women",
+      "section": "tops",
+      "img": "https://media.istockphoto.com/id/500160926/photo/traditional-and-ethnic-indian-blouse-for-women-to-be-worn.webp?a=1&b=1&s=612x612&w=0&k=20&c=FKihsrq-xpFRW2VIhEeSOZ1ouNBpF33AqNrUeObkfH4=",
+      "name": "Floral Printed Blouse",
+      "rs": "₹899"
+    },
+    {
+      "id": 4,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-OH4solgn9jz0WJKQWWKIeE9TOcwmBWT-1WHnUDOPFA&s=10",
+      "name": "Chiffon Party Top",
+      "rs": "₹1,499"
+    },
+    {
+      "id": 5,
+      "category": "women",
+      "section": "tops",
+      "img": "https://clothsvilla.com/cdn/shop/files/teal-blue-blooming-silk-blouse-with-sequins-and-tone-on-tone-thread-work_3.jpg?v=1727264546",
+      "name": "Blue V-Neck Blouse",
+      "rs": "₹999"
+    },
+     {
+      "id": 6,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc6M26qhC9cEENwSY66z7YF3sWaiXHSfEWGo-ETCfMqA&s=10",
+      "name": "Elegant Long Sleeve Top",
+      "rs": "₹1,399"
+    },
+    {
+      "id": 7,
+      "category": "women",
+      "section": "tops",
+      "img": "https://5.imimg.com/data5/SELLER/Default/2022/3/GH/ZQ/UZ/115574055/aecc59aa-bf86-4c02-8d6b-df6a08b4c581-500x500.jpg",
+      "name": "floral print Blouse",
+      "rs": "₹1,199"
+    },
+    {
+      "id": 8,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUV7Bl_a5usBhpjh8rugGM7jbXRa60EW8l5TsVVowLtA&s",
+      "name": "floral print top",
+      "rs": "₹799"
+    },
+    {
+      "id": 9,
+      "category": "women",
+      "section": "tops",
+      "img": "https://img.kwcdn.com/product/open/423a1beb94554ea7ba8f79196a21c1ee-goods.jpeg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
+      "name": "White long sleeve Top",
+      "rs": "₹1,099"
+    },
+    {
+      "id": 10,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGRhyaTF0gqzxuS-wCUz3ZHqi67LjURFExn-1Fd8-TJw&s=10",
+      "name": "pink Blouse",
+      "rs": "₹1,299"
+    },
+    {
+      "id": 11,
+      "category": "women",
+      "section": "tops",
+      "img": "https://media.istockphoto.com/id/1487690378/photo/green-hand-embroidered-sari-blouse.webp?a=1&b=1&s=612x612&w=0&k=20&c=am4Y7ArLRLuLpyPUk8weXTww0Ys1gaCI4G7yWBld5UQ=",
+      "name": "Green Floral Blouse",
+      "rs": "₹949"
+    },
+    {
+      "id": 12,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEhK4Q2wC0IMpjMMSyV1pG_1VXNM9vvAL8SOz_jfuLAxGfuvRLsXKwbqI&s=10",
+      "name": "princess cut red blouse",
+      "rs": "₹899"
+    },
+    {
+      "id": 13,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGRhyaTF0gqzxuS-wCUz3ZHqi67LjURFExn-1Fd8-TJw&s=10",
+      "name": "Printed V-Neck Blouse",
+      "rs": "₹1,249"
+    },
+    {
+      "id": 14,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1Oa2-kec7W8Os41nKoCT9OzgAp_QzM8H00UvedZHAQ&s",
+      "name": "Floral Button Down Blouse",
+      "rs": "₹1,199"
+    },
+    {
+      "id": 15,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmb7SCWNc-mv5qZaHCzUUMhZJZqyRs5BElyf_MMiv8w&s",
+      "name": "Printed Summer Top",
+      "rs": "₹899"
+    },
+    {
+      "id": 16,
+      "category": "women",
+      "section": "tops",
+      "img": "https://i.pinimg.com/236x/7b/38/54/7b38544bf1d24c49801735ff8fce31c6.jpg",
+      "name": "Pleated Sleeve Blouse",
+      "rs": "₹1,299"
+    },
+    {
+      "id": 17,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDLa9p-qBST0J8PP0N1V2tA30n7SR8ymE9JcRBT1STCw&s=10",
+      "name": "Minimal White top",
+      "rs": "₹999"
+    },
+    {
+      "id": 18,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb0Tal5g4DvJzGNl053foUyz7HeKA9ggXfyhmLgUg3pg&s=10",
+      "name": "Blue Floral Top",
+      "rs": "₹1,049"
+    },
+    {
+      "id": 19,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaUNu-oOcsNzd0eNDKefVXVd5emL4GAZGjSPjjdAtXyA&s=10",
+      "name": "Short Sleeve Blouse",
+      "rs": "₹849"
+    },
+    {
+      "id": 20,
+      "category": "women",
+      "section": "tops",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr4-eFrYwqyNyQUckYU0fVDQwxmg7rV3UZ1kNDpfT-5A&s=10",
+      "name": "Short Sleeve Blouse",
+      "rs": "₹1,399"
+    }
+  ],
+
+  "dresses":[
+
+    {
+      "id": 21,
+      "category": "women",
+      "section": "dresses",
+     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRxFp_lUI_hxkvU7JEFn-IFXbkKLGFW_BGb8wps5o_UA&s=10",
+      "name": "party wear jumpsuit",
+      "rs": "₹1,399"
+    },
+   {
+    "id": 22,
+      "category": "women",
+    "section": "dresses",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPd6wv4BoR2EEab8HaM79D1UF0NvVrI7Yjc9EagiTkqw&s=10",
+      "name": "formal Grey",
+      "rs": "₹849"
+    },
+   {
+    "id": 23,
+      "category": "women",
+    "section": "dresses",
+      "img": "https://img201.savana.com/goods-pic/fa691025840646219a8c5e7ae2b238c0_w540_h720_q85.webp",
+      "name": "formal jumpsuit",
+      "rs": "₹1,049"
+    },
+     {
+      "id": 24,
+      "category": "women",
+      "section": "dresses",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDI1L8a_zAjuo17Mictte5Jwz-O4igO7bdqOseM0F-lg&s",
+      "name": "Black V Neck",
+      "rs": "₹1,299"
+    },
+     {
+      "id": 25,
+      "category": "women",
+      "section": "dresses",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq3xyqmkGF2awufO6khW-sOTm9Wkg23cSZ1hVbATNleA&s=10",
+      "name": "Casual White",
+      "rs": "₹999"
+    },
+    {
+      "id": 26,
+      "category": "women",
+      "section": "dresses",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_0w_HawVZBlE5YP1DCTegFJoy8UpqFvN_m2FGiTLhw&s",
+      "name": "Casual dress",
+      "rs": "₹999"
+    },
+    {
+      "id": 27,
+      "category": "women",
+      "section": "dresses",
+      "img": "https://img201.savana.com/goods-pic/fa691025840646219a8c5e7ae2b238c0_w540_h720_q85.webp",
+      "name": "formal jumpsuit",
+      "rs": "₹1,049"
+    }
+  ] ,
+  
+  "blazer":[
+   {
+     "id": 28,
+     "category": "women",
+     "section": "blazer",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPNWJcHdrRSGn37raLEQ8dkYmS808fP5YtJjJzThWubA&s=10",
+      "name": "red and white Blazer",
+      "rs": "₹1,299"
+   },
+  {
+     "id": 29,
+     "category": "women",
+     "section": "blazer",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeo07ua7aPwzVAKaGj7qBGulCeVQqXtAvLbWojHyMfw&s=10",
+      "name": "Formal Blazer",
+      "rs": "₹1,399"
+    },
+  {
+     "id": 30,
+     "category": "women",
+     "section": "blazer",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu3zxyygVIcyMK0FNDz6LXLX7re4LreCVIWwvirW1pVQ&s=10",
+      "name": "Black Blazer",
+      "rs": "₹1,299"
+    },
+   {
+     "id": 31,
+     "category": "women",
+     "section": "blazer",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnodJpV62ywnFg8NfeMI1XHW4gCVX86rVSdbjLqO1X9w&s=10",
+      "name": "Korean Co-ord Blazer",
+      "rs": "₹1,299"
+    },
+    {
+      "id": 32,
+      "category": "women",
+      "section": "blazer",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYZgtcP0drwFh1Zz5d662EwzllVIHzfMRSzS68Q03Jyw&s=10",
+      "name": "Black V Neck",
+      "rs": "₹1,299"
+    }
+  ],
+
+  "shirt":[
+    {  
+      "id": 1,
+      "category": "men",
+      "section": "shirt",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_BrCaGJw2CA6M-r0oOrZ4_eMHpQWO9BI7xn-o2XjcwQ&s",
+      "name": "Shirt",
+      "rs": "₹949"
+    },
+    {  
+     "id": 2,
+     "category": "men",
+     "section": "shirt",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV2ajQEJ7m0mL77AUc_8xbNEmNKc_Hnaae4KPeyHfsdw&s",
+      "name": "Shirt",
+      "rs": "₹899"
+    },
+    {  
+     "id": 3,
+     "category": "men",
+     "section": "shirt",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTE_KUwbwj1ml7aQenL8eKaj1q7TeKnBbCfUgBi7CcaA&s",
+      "name": "Shirt",
+      "rs": "₹1,249"
+    },
+    {  
+     "id": 4,
+     "category": "men",
+     "section": "shirt",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXAiKoHFtSQ2D9knEHhw3X-pZt-6iogi94tdJ9zJPwtA&s=10",
+      "name": "Shirt",
+      "rs": "₹1,199"
+    },
+    {  
+     "id": 5,
+     "category": "men",
+     "section": "shirt",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8pwWMLGRhzZIZ8DuDMG8lcQGhHqFkLZshmb2zW2K0ww&s",
+      "name": "Shirt",
+      "rs": "₹1,299"
+    },
+    {  
+     "id": 6,
+     "category": "men",
+     "section": "shirt",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVEYq-iP7pLj9NVSfLxtTSPyVys4b7zBcVtWylL0EfVQ&s=10",
+      "name": "Shirt",
+      "rs": "₹1,299"
+    }
+  ],
+"tShirt":[
+   {
+    "id": 7, 
+      "category":"men", 
+      "section":"tshirt", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugnqRYkPT81qySjcTIoO0-ou2uZlUy-psyMeC3_94AQ&s=10",
+      "name": "T-Shirt",
+      "rs": "₹949"
+    },
+    {
+      "id": 8, 
+      "category": "men", 
+      "section": "tshirt", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeV6MsxB9odktxJtEnpkHzB9lTVX0XzP2LCgfpr2hUlg&s",
+      "name": "T-Shirt",
+      "rs": "₹899"
+    },
+    {
+      "id": 9, 
+      "category": "men", 
+      "section": "tshirt", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShw7yEKKocxT9j-c62p9Upw6Wx2kny2HD2jYmPfiGSCQ&s=10",
+      "name": "T-Shirt",
+      "rs": "₹1,249"
+    },
+    {
+      "id": 10, 
+      "category": "men", 
+      "section": "tshirt", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkFPL1JcpxnADi9we6QE4283z3u10oIASESdfC0lX_Zg&s=10",
+      "name": "T-Shirt",
+      "rs": "₹1,199"
+    },
+    {
+      "id": 11, 
+      "category": "men", 
+      "section": "tshirt", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY4ibO-TY8bw5Q7T8lpanVOu_gpEm0SSFOOnYsMA2qhg&s=10",
+      "name": "T-Shirt",
+      "rs": "₹1,299"
+    },
+    {
+      "id": 12, 
+      "category": "men", 
+      "section": "tshirt", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtKtVLgz94giEpqMWo9UD97wwK9moB7Klll_BPvp9kaQ&s=10",
+      "name": "T-Shirt",
+      "rs": "₹1,299"
+    }
+  ],
+  "jeans":[
+    {
+      "id": 13,
+     "category": "men",
+     "section": "jeans", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmHuHGj4bLAKHDDKpXI7vbMLSR8taRZhdTshWROcDdjg&s=10",
+      "name": "mens Denim Jeans",
+      "rs": "₹949"
+    },
+    {
+      "id": 14,
+     "category": "men",
+     "section": "jeans", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBYH9-IOzbuJmEmIkbfjmmKCiltQPC_SRnxRdrdiYxQ&s=10",
+      "name": "mens Denim Jeans",
+      "rs": "₹899"
+    },
+    {
+      "id": 15,
+     "category": "men",
+     "section": "jeans", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmqCeuq9PYzb6nkYrZgeVXJcubpp1ve3ymasBRAepciA&s=10",
+      "name": "mens Denim Jeans",
+      "rs": "₹1,249"
+    },
+    {
+      "id": 16,
+     "category": "men",
+     "section": "jeans", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStYLaabA6rN3iWfgWrFYae_LXGhlD1kNtcZ7LYTi0ceg&s=10",
+      "name": "mens Denim Jeans",
+      "rs": "₹1,199"
+    },
+    {
+      "id": 17,
+     "category": "men",
+     "section": "jeans", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXk1t3MbYqoADANsk-Zu87jFUfvc_9qOGXjMmwWgA0w&s=10",
+      "name": "mens Denim Jeans",
+      "rs": "₹1,299"
+    },
+    {
+      "id": 18,
+     "category": "men",
+     "section": "jeans", 
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0mGZDbw4r-aDpG3pg1V3mUCV7c-NGe7yoP_8inGCKg&s",
+      "name": "mens Denim Jeans",
+      "rs": "₹1,299"
+    }
+  ],
+
+
+  "boys":[
+   {
+   "id": 1, 
+     "category": "kids",
+     "section": "boys",
+      "img": "https://cdn.shopify.com/s/files/1/0670/5578/0143/files/2601-BGB-IF-POLO358_2_480x.jpg?v=1776336763",
+      "name": "T-Shirt",
+      "rs": "₹949"
+    },
+    {
+     "id": 2, 
+     "category": "kids",
+     "section": "boys",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSyAJFz4lag2KR947Iysp7Tw9JZ6qvQ4g7BYmbb7edjg&s",
+      "name": "casual shirt",
+      "rs": "₹899"
+    },
+    {
+     "id": 3, 
+     "category": "kids",
+     "section": "boys",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk_hQznO8Vfi8is5tEZTeL8s8k_cfrxojeMBMwtCc36g&s=10",
+      "name": "printed shirt",
+      "rs": "₹1,249"
+    },
+    {
+     "id": 4, 
+     "category": "kids",
+     "section": "boys",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwnV3SMwPy5izYQA_OY256UmIMZsBisDPcIf43btbslw&s=10",
+      "name": "casual dress",
+      "rs": "₹1,199"
+    },
+    {
+     "id": 5, 
+     "category": "kids",
+     "section": "boys",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVTbG0f_bL6k-nb2QOd9nmSedBIYPQfWbcNIMBAAyoA&s=10",
+      "name": "pant Shirt Set",
+      "rs": "₹1,299"
+    },
+    {
+     "id": 6, 
+     "category": "kids",
+     "section": "boys",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbazxN-2K2H75nYCEPdQKoTpL9DsL9B6WNyDvGogj8bQ&s=10",
+      "name": "pant Shirt Set",
+       "rs": "₹1,299"
+    }
+  ],
+  "girls":[
+   {
+      "id": 7,
+      "category": "kids", 
+      "section": "girls",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqV_VV4mXeWZu_2dlGLOyWwRryYbDSjnP4I9eD9ILsaQ&s=10",
+      "name": "white Dress",
+      "rs": "₹949"
+    },
+    {
+      "id": 8,
+      "category": "kids", 
+      "section": "girls",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx95yLPHPf2BR5FmTJOlYnWl22yxutQme3eQ1f5X2Sow&s",
+      "name": "Party Wear Dress",
+      "rs": "₹899"
+    },
+    {
+      "id": 9,
+      "category": "kids", 
+      "section": "girls",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNkzhMvORcvZcqMFkCoVg4r6D7pgdw5byyZtQEVpAq5Q&s=10",
+      "name": "Party Wear Dress",
+      "rs": "₹1,249"
+    },
+    {
+      "id": 10,
+      "category": "kids", 
+      "section": "girls",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnvwxUzXonITeVd9JeifDP29V6w24xmmFpzpGy9v2Ndw&s=10",
+      "name": "Casual dress",
+      "rs": "₹1,199"
+    },
+    {
+      "id": 11,
+      "category": "kids", 
+      "section": "girls",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwTW-yI3jKpMmXWrx67IiAqRTBxLAAak8mwHOE4Okf6A&s",
+      "name": "Korean dress",
+      "rs": "₹1,299"
+    },
+    {
+      "id": 12,
+      "category": "kids", 
+      "section": "girls",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2RNS_vKiph4ODzvOiSpR1pE8YvdX0iZtWgVQrjLWrqg&s=10",
+      "name": "white Dress",
+      "rs": "₹1,299"
+    }
+  ],
+  "baby":[
+    {
+     "id": 13,
+     "category": "kids",
+     "section": "baby",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZ9MoQbapLyryxMcrMxpAFJwVU1ODJaRRR2UABj3UzLUnVw8vwHrgJvFn&s=10",
+      "name": "Purple Dress",
+      "rs": "₹949"
+    },
+    {
+     "id": 14,
+     "category": "kids",
+     "section": "baby",
+      "img": "https://m.media-amazon.com/images/I/81l5PFJj56L._SX522_.jpg",
+      "name": "Baby Girl Dress",
+      "rs": "₹899"
+    },
+    {
+     "id": 15,
+     "category": "kids",
+     "section": "baby",
+      "img": "https://images.unsplash.com/photo-1652501110379-791d8adc753f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJhYnklMjBkcmVzc3xlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Girl Dress",
+      "rs": "₹1,249"
+    },
+    {
+     "id": 16,
+     "category": "kids",
+     "section": "baby",
+      "img": "https://images.unsplash.com/photo-1652500119378-ae951a627737?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJhYnklMjBkcmVzc3xlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Floral Dress",
+      "rs": "₹1,199"
+    },
+    {
+     "id": 17,
+     "category": "kids",
+     "section": "baby",
+      "img": "https://images.unsplash.com/photo-1684244160171-97f5dac39204?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFieSUyMGRyZXNzfGVufDB8fDB8fHww",
+      "name": "Korean Dress",
+      "rs": "₹1,299"
+    },
+    {
+      "id": 18,
+      "category": "kids",
+      "section": "baby",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1pUuAMATgrpm5vezwrp5o2pWW_RlL9kTu8QrVzwaxNw&s=10",
+      "name": "Dress",
+      "rs": "₹1,299"
+    }
+  ],
+  "abouUsCard":[
+    {
+      "id":1,
+      "category":"women",
+      "text":"tren"
+    }
+  ]
+}
+  
+
+
+  

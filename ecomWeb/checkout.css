@@ -1,0 +1,368 @@
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html ,body{
+    width: 100%;
+    height: 100vh;
+ }
+/* navBar */
+nav {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid black;
+   padding: 5px 20px;
+   font-size: larger;
+   position: fixed;
+   z-index: 6;
+   top: 0;
+   background-color: whitesmoke;
+}
+
+#logo {
+   font-weight: bolder;
+   font-style: italic;
+   font-size: xx-large;
+   margin-left: 5px;
+}
+/* navbar ends here */
+/* steps */
+
+ .top{
+    /* margin: 50px auto; */
+     margin-top: 60px;
+    margin-left: 35px;
+    text-align: center;
+    width: 25%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .top #step1 h2{
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 5px 2px;
+    background-color: black;
+    color: white;
+ }
+
+.top #step2 h2{
+    text-align: center;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 5px 2px;
+    background-color: rgb(91, 85, 85);
+    color: white;
+}
+
+.top #step3 h2{
+    text-align: center;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 5px 2px;
+    background-color: rgb(91, 85, 85);
+    color: white;
+}
+.line{
+   width:15%;
+}
+.line hr {
+    width: 100%;
+    border: none;
+    border-top: 2px solid black;
+}
+/* steps ends here */
+
+.center{
+   display: flex;
+   gap: 5px;
+}
+
+.center #left{
+   /* border: 2px solid gray; */
+   width: 50%;
+   padding: 20px;
+   margin: 15px;
+   /* border-radius: 25px; */
+   box-shadow: 5px 8px 6px rgb(185, 184, 184); 
+}
+
+.center #left .topL{
+   display: flex;
+   gap: 15px;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.center #left .topL h2{
+   text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px 6px;
+    background-color: black;
+    color: white;
+}
+.center #left .topL p{
+   font-size: 30px;
+   font-weight: 700;
+}
+.center form{
+   display: flex;
+   gap: 5px;
+   flex-direction: column;
+}
+.center input{
+  margin-bottom: 15px;
+}
+.center #rowThird{
+   display: flex;
+   gap: 5px;
+   justify-content: space-between;
+}
+
+.center #address{
+   height: 90px;
+}
+
+/* left part ends here */
+
+/* right section top summmaryProduct Img  */
+.center #right{
+   border: 2px solid gray;
+    width: 50%;
+   padding: 20px;
+   margin: 15px;
+   border-radius: 25px;
+   /* box-shadow: 5px 8px 6px rgb(185, 184, 184); */
+}
+#summaryTop h3{
+ text-align: center;
+ font-size: 30px;
+ font-weight: 700px;
+ margin:20px 10px ;
+}
+
+#summaryTop #Product {
+display: flex;
+align-items: center;
+gap:15px;
+margin-bottom: 15px;
+}
+
+#summaryTop #Product img{
+ width: 250px;
+ height: 180px;
+}
+#summaryTop #Product p{
+   font-size: 20px;
+   font-weight: 500;
+}
+#summaryTop #Product span{
+   color: gray;
+}
+
+#summaryCenter{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ #summaryCenter .price {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+#summaryBottom {
+   margin: 5px 0;
+   font-weight: bolder;
+   display: flex;
+   justify-content: space-between;
+}
+
+#right #popUp{ 
+   background-color: rgb(127, 240, 127);
+   padding: 10px 15px;
+}
+
+#right #popUp p{
+   color: green;
+}
+
+/* center part ends here */
+
+/* back btn starts */
+.formActions{
+   display: flex;
+   justify-content: space-around;
+}
+.formActions a{
+   text-decoration: none;
+   color: white;
+   background-color: black;
+   padding: 4px 6px;
+   font-size: 20px;
+   font-weight: 600;
+}
+.formActions button{
+   background-color: black;
+   color: white;
+   padding: 4px 6px;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.bottom{
+   padding: 5px 20px;
+   display: flex;
+   justify-content: space-between;
+  margin: 10px 0;
+}
+
+/* media quary */
+@media (max-width: 768px) {
+
+    /* steps */
+    .top {
+        width: 90%;
+        margin: 60px auto 20px;
+    }
+
+    .line {
+        width: 12%;
+    }
+
+
+    /* main center */
+    .center {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .center #left,
+    .center #right {
+        width: 90%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+
+    /* delivery form */
+    .center #left .topL {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .center #left .topL h2 {
+        font-size: 16px;
+        padding: 8px 5px;
+    }
+
+    .center #left .topL p {
+        font-size: 22px;
+    }
+
+    .center #rowThird {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+
+    /* summary */
+    #summaryTop h3 {
+        font-size: 24px;
+        margin: 15px 5px;
+    }
+
+    #summaryTop #Product {
+        width: 100%;
+        gap: 10px;
+    }
+
+    #summaryTop #Product img {
+        width: 100px;
+        height: 90px;
+        object-fit: cover;
+    }
+
+    #summaryTop #Product p {
+        font-size: 14px;
+    }
+
+    #summaryTop #Product span {
+        font-size: 13px;
+    }
+
+    #summaryCenter {
+        gap: 10px;
+    }
+
+    #summaryCenter .price {
+        font-size: 14px;
+    }
+
+    #summaryBottom {
+        font-size: 15px;
+    }
+
+
+    /* popup */
+    #right #popUp {
+        padding: 7px 10px;
+    }
+
+    #right #popUp p {
+        font-size: 12px;
+    }
+
+
+    /* back / payment buttons */
+    .formActions {
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .formActions a,
+    .formActions button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+
+    /* bottom features */
+    .bottom {
+        width: 100%;
+        padding: 5px;
+        margin: 15px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .bottom > div {
+        flex: 1;
+        min-width: 0;
+        text-align: center;
+    }
+
+    .bottom h3,
+    .bottom h4,
+    .bottom p,
+    .bottom span {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .bottom i {
+        font-size: 16px;
+    }
+
+}

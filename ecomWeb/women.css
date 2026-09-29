@@ -1,0 +1,504 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,
+body { 
+   width: 100%;
+   min-height: 100%;
+}
+
+body {
+   position: relative;
+   margin: 2px 20px;
+   width: calc(100% - 40px);
+}
+/* NAVBAR START*/
+
+nav {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid black;
+   padding: 8px 20px;
+   font-size: larger;
+   position: fixed;
+   z-index: 6;
+   top: 0;
+   background-color: whitesmoke;
+}
+
+#logo {
+   font-weight: bolder;
+   font-style: italic;
+   font-size: xx-large;
+   margin-left: 5px;
+}
+
+#navBtn {
+   display: flex;
+   gap: 25px;
+   margin-right: 10px;
+   padding: 0 10px;
+}
+
+#navBtn a {
+   text-decoration: none;
+   cursor: pointer;
+   color: black;
+   font-weight: 600;
+}
+
+/* navbar ends here  */
+
+#hero{
+   width: 100%;
+   height: 450px;
+   margin-top: 65px;
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(243, 228, 207);
+}
+ 
+#hero #left{
+   width: 60%;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+ 
+#hero #left h2{
+   margin-top: 18px;
+   font-size: 35px;
+   font-weight: 800;
+}
+#hero #left h2 span{
+   font-style: italic;
+
+}
+#hero #left p{
+   font-size: 16px;
+   line-height: 25px;
+}
+#hero #right{
+   width: 40%;
+}
+#hero #right #imgContainer{
+   background-image: url("https://images.unsplash.com/photo-1627577279497-4b24bf1021b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZhc2hpb24lMjBnaXJsfGVufDB8fDB8fHww");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 450px;
+   height: 350px;
+   
+   border-radius: 50% 50% 5px 5px;
+   margin: 20px 30px;
+}
+
+/* media queary */
+
+@media(max-width:768px){
+ 
+ #hero{
+  height:auto;
+  flex-direction: column;
+ }
+#hero #left{
+   width: 100%;
+}
+#hero #left h2{
+   margin-top: 10px;
+   font-size: 25px;
+}
+
+#hero #left p{
+   font-size: 15px;
+   line-height: 20px;
+}
+#hero #right{
+   width: 100%;
+}
+
+#hero #right #imgContainer{
+   width: 250px;
+   height: 300px;
+   margin: 10px auto;
+}
+
+}
+
+/* hero section ends here */
+
+#newArrivals{
+   margin: 60px 0;
+    background-color: antiquewhite;
+    height:250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+#newArrivals h2{
+  font-size: 65px;
+  font-weight: bolder;
+  padding: 30px;
+  margin-left: 25px;
+  font-style: italic;
+}
+#newArrivals img{
+   height: 200px;
+   width: 450px;
+   border-radius: 40px 10px 40px 10px;
+   box-shadow: 2px 5px 6px 1px rgb(191, 152, 152);
+}
+/* media quary */
+@media(max-width:768px){
+   #newArrivals{
+    height:auto;
+    display: flex;
+   flex-direction: column; 
+}
+
+#newArrivals h2{
+  font-size: 35px;
+}
+
+#newArrivals img{
+   height: 150px;
+   width: 300px;
+}
+}
+/* new arrivals ends here */
+
+
+#tops {
+   margin: 60px 0;
+}
+
+#tops h2 {
+   text-align: center;
+   margin: 5px 0;
+}
+
+#tops #topContainer {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   gap: 15px;
+   overflow: auto;
+   padding: 10px;
+   scrollbar-width: none;
+}
+#tops #topContainer::-webkit-scrollbar{
+   display: none;
+}
+
+/* dresses */
+#Dresses {
+   margin: 60px 0;
+}
+
+#Dresses h2 {
+   text-align: center;
+   margin: 5px 0;
+}
+
+#Dresses #dressContainer {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   gap: 20px;
+   overflow: auto;
+   padding: 10px;
+   scrollbar-width: none;
+  
+}
+#Dresses #dressContainer::-webkit-scrollbar{
+   display:none
+}
+/* dress ends here */
+/* Blazers starts */
+
+#blazers {
+   margin: 60px 0;
+}
+
+#blazers h2 {
+   text-align: center;
+   margin: 20px 0;
+}
+
+#blazers #blazerContainer {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   gap: 20px;
+   overflow: auto;
+   padding: 10px;
+   scrollbar-width: none;
+  
+}
+#blazers #blazerContainer::-webkit-scrollbar{
+   display:none
+}
+/* blazers ends here */
+
+
+/* js Madhle Product cards */
+ .productCard {
+   width: 250px;
+   min-height: 350px;
+   flex-shrink: 0;
+   border: 2px solid gray;
+}
+ .productCard:hover{
+   box-shadow: 2px 2px 6px gray;
+   
+}
+
+.productCard #imgContainer {
+   width: 100%;
+   height: 280px;
+   position: relative;
+   overflow: hidden;
+}
+
+.productCard #imgContainer img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+}
+
+.productCard #imgContainer .heartIcon {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-size: 20px;
+   cursor: pointer;
+   z-index: 2;
+}
+
+.productCard #textContainer {
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   margin-top: 5px;
+   padding: 0 8px;
+}
+
+.productCard #textContainer p {
+   font-size: small;
+   font-weight: 300;
+   margin: 0 0 5px;
+}
+
+.productCard #textContainer .rating{
+    display: none;} 
+
+.productCard:hover #textContainer .rating {
+      display: block;
+    }
+
+.productCard #textContainer #addToCart {
+   font-size: larger;
+   cursor: pointer;
+} 
+/* media queary */
+@media(max-width:768px){
+   .productCard {
+   width: 200px;
+   min-height: 250px;
+}
+
+.productCard #imgContainer {
+   height: 180px;
+}
+
+
+
+.productCard #imgContainer .heartIcon {
+   font-size: 15px;
+}
+}
+
+/* footer */
+ .footer{ 
+   margin-top: 20px;
+   width: 100%;
+   height: 400px;
+   color: white;
+   background-color: black;
+   padding: 2px 15px;
+ }
+
+ .footer #top{
+   display: flex;
+   justify-content: space-between;
+   padding: 5px;
+   height: 20%;
+   align-items: center;
+ }
+
+ .footer #top h2{
+   font-size: 25px;
+   font-weight: 600;
+ }
+ .footer #top h2 span{
+   font-style: italic;
+   font-weight: 200;
+ }
+
+ .footer #top input{
+   padding: 5px 15px;
+   background-color: rgb(29, 26, 26);
+   color: gray;
+   font-size: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+ } 
+ .footer #top button{
+   background-color: white;
+   color: black;
+   padding: 10px 20px;
+   border-radius: 20px;
+   margin: 0 15px;
+   cursor: pointer;
+ }
+ .footer #center {
+   display: flex;
+   margin: 20px 5px;
+   width: 100%;
+   height: auto;
+   gap: 25px;
+   justify-content: space-around;
+ }
+ .footer #center .title{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap:20px
+ } 
+ .footer #center .title a{
+   text-decoration: none;
+   color: white;
+ }
+ .footer #bottom h2{
+     font-size: 45px;
+     font-weight: bolder;
+     text-align: center;
+     font-style: italic;}
+     
+/* media quary */
+ @media(max-width:768px){
+ .footer{ 
+   height: auto;
+ }
+
+ .footer #top{
+   width: 100%;
+   margin:2px auto;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .footer #top h2{
+   font-size: 15px;
+ }
+
+ .footer #top input{
+   margin: 10px auto;
+    padding: 5px 10px;
+   font-size: 15px;
+ } 
+
+ 
+ .footer #bottom h2{
+     font-size: 25px;
+   }
+     
+     }
+ /* footer eds here */
+
+ .activeHeart{
+   color:red 
+ }
+
+ .buyNow{
+   background-color: black;
+   color: white;
+   padding: 2px 4px;
+   width: 120px;
+   cursor: pointer;
+ }
+
+ /* responsive parts */
+#menuIcon {
+    display: none;
+   margin-right: 20px; 
+   cursor: pointer;
+}
+
+ @media (max-width: 768px) {
+
+    body {
+        margin: 2px 10px;
+        width: calc(100% - 20px);
+    }
+   #herocate {
+        height: auto;
+    }
+}
+
+ /* responsive media  */
+
+/* =========================
+   RESPONSIVE NAVBAR
+========================= */
+
+@media (max-width: 768px) {
+  nav{
+   width: 100%;
+  }
+   #navBtn{
+      display: none;
+   }
+   #menuIcon{
+      display: block;
+      cursor: pointer;
+   }
+  nav.active #navBtn {
+        display: flex;
+        flex-direction: column;
+
+        gap: 15px;
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+
+        width: 180px;
+
+        padding: 20px;
+
+        margin: 0;
+
+        background-color: whitesmoke;
+
+        border: 1px solid black;
+    }
+ .footer #top input {
+        width: 100%;
+        max-width: 200px;
+    }
+
+}

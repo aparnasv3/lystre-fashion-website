@@ -1,0 +1,143 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order confirmmation page</title>
+    <link rel="stylesheet" href="confirmOrder.css">
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+ </head>
+ <body>
+     <!-- navebar -->
+<nav>
+        <div id="logo">lystre</div>
+        
+    </nav>
+<!-- navBar ends here -->
+
+
+    <!-- steps start  -->
+
+
+ <div class="top">
+<div id="step1">
+    <h2>1</h2>
+    <p>Delivery</p>
+</div>
+
+<div class="line">
+    <hr>
+</div>
+
+<div id="step2">
+    <div class="step2">
+        <h2>2</h2>
+        <p>Payment</p>
+    </div>
+</div>
+
+<div class="line">
+    <hr>
+</div>
+
+<div id="step3">
+    <div class="step3">
+        <h2>3</h2>
+        <p>Confirm</p>
+    </div>
+</div>
+</div>
+<!-- steps ends -->
+
+<section class="center">
+    <div id="left">
+         <div class="topL">
+        <h2>3</h2>
+        <p>Confirm</p>
+    </div>
+
+<!-- left side Confirmation box starts-->
+        <section id="confirmContainer">
+         <!-- logo -->
+         <div class="confirmIcon" >
+            <iconify-icon icon="line-md:confirm-circle-twotone"></iconify-icon>
+         </div>
+
+         <div id="top">
+           <h2>Order Placed Successfully!</h2>
+           <p>Thank You for shopping with <span style="font-weight: bold; font-size: 16px;">lystre</span> </p>
+           <p>Your Order has been placed and is confirmed.</p>
+         </div>
+
+         <div id="center1">
+          <div class="center1Text"> 
+        <div>
+            <p>Order Id</p>
+            <p>#SF12345</p>
+        </div>
+        <div>
+            <p>Other Date</p>
+            <p>21 feb 2026,11:55 AM</p>
+        </div>
+          </div>
+
+         <div class="center1Text">
+         <div>
+            <p>Payment Method</p>
+            <p>Cash on Delivery</p>
+         </div>
+         <div>
+            <p>Total Amount</p>
+            <p id="totalAmount"></p>
+         </div>
+         </div>
+         </div>
+
+   <div id="center2">
+       <p>You will recive an order update on your mobile number</p>
+   </div>
+
+<!-- Navigation Buttons -->
+   <div id="navigationBtn">
+     <a href="checkout.html" class="backBtn">
+        ← CONTINUE SHOPPING
+    </a>
+
+    <button type="button" id="proceedPayment">
+        VIEW MY ORDERS
+    </button>
+   </div>
+    
+</section>
+  
+ </div>
+
+<!-- left side part ends here -->
+
+<!-- right side summaryOrder Part Starts -->
+    <div id="right">
+        <div id="summaryTop">
+           
+        </div>
+        <hr>
+        <div id="summaryCenter">
+           
+        </div>
+        <hr>
+        <div id="summaryBottom">
+
+        </div>
+
+         <div id="popUp">
+            <p>You Get 100Rs Discount off</p>
+        </div>
+    </div>
+</section>
+
+
+
+    
+
+ </body>
+ <script type="module" src="confirmOrder.js"></script>
+ </html>

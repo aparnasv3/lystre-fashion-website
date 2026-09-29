@@ -1,0 +1,118 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+   <link rel="stylesheet" href="payment.css">
+ </head>
+ <body>
+    
+    <!-- navebar -->
+<nav>
+        <div id="logo">lystre</div>
+        
+    </nav>
+<!-- navBar ends here -->
+
+
+    <!-- steps start  -->
+<!-- <section class="address"> -->
+
+ <div class="top">
+<div id="step1">
+    <h2>1</h2>
+    <p>Delivery</p>
+</div>
+
+<div class="line">
+    <hr>
+</div>
+
+<div id="step2">
+    <div class="step2">
+        <h2>2</h2>
+        <p>Payment</p>
+    </div>
+</div>
+
+<div class="line">
+    <hr>
+</div>
+
+<div id="step3">
+    <div class="step3">
+        <h2>3</h2>
+        <p>Confirm</p>
+    </div>
+</div>
+</div>
+
+
+<section class="center">
+    <div id="left">
+         <div class="topL">
+        <h2>2</h2>
+        <p>Payment Method</p>
+    </div>
+        <form action="">
+          <div class="inputOption">
+             <input type="radio" name="paymentMethod" id="cashOnDelivery" value="cash On deliver">
+             <label for="cashOnDelivery">Cash On Delivery </label>
+             <p>Pay When Your Order is delivered</p>
+          </div>
+          <div class="inputOption">
+             <input type="radio"  name="paymentMethod" id="upi" value="upi">
+             <label for="upi">UPI </label>
+             <p>Pay Using any UPI App</p>
+          </div>
+            <div class="inputOption">
+             <input type="radio"  name="paymentMethod" id="card" value="card">
+             <label for="card">Card </label>
+             <p>Visa, MasterCard, Rupay</p>
+          </div>
+            <div class="inputOption">
+             <input type="radio"  name="paymentMethod" id="netBanking" value="netBanking">
+             <label for="netBanking">Net Banking</label>
+             <p>AI major banks Support</p>
+          </div>
+           
+        </form>
+    </div>
+    <div id="right">
+        <div id="summaryTop">
+           
+        </div>
+        <hr>
+        <div id="summaryCenter">
+           
+        </div>
+        <hr>
+        <div id="summaryBottom">
+
+        </div>
+
+         <div id="popUp">
+            <p>You Get 100Rs Discount off</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Navigation Buttons -->
+<div class="formActions">
+
+    <a href="checkout.html" class="backBtn">
+        ← Back To Address
+    </a>
+
+    <button type="button" id="proceedPayment">
+        Place Order →
+    </button>
+
+</div>
+
+
+ </body>
+ <script type="module" src="payment.js"></script>
+ </html>
